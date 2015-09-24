@@ -15,6 +15,8 @@
 		0F3E96511BB391BE004F22AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3E964F1BB391BE004F22AC /* LaunchScreen.storyboard */; };
 		0F3E965C1BB391BE004F22AC /* YSNSangoChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E965B1BB391BE004F22AC /* YSNSangoChatTests.m */; };
 		0F3E96671BB391BE004F22AC /* YSNSangoChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E96661BB391BE004F22AC /* YSNSangoChatUITests.m */; };
+		0F3E96761BB39406004F22AC /* YSNChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E96751BB39406004F22AC /* YSNChatViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F224061C1D51D88E43D882AD /* libPods-YSNSangoChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D6735D6329A2700F7453F2 /* libPods-YSNSangoChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		0F3E96621BB391BE004F22AC /* YSNSangoChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSNSangoChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3E96661BB391BE004F22AC /* YSNSangoChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSNSangoChatUITests.m; sourceTree = "<group>"; };
 		0F3E96681BB391BE004F22AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3E96741BB39406004F22AC /* YSNChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSNChatViewController.h; sourceTree = "<group>"; };
+		0F3E96751BB39406004F22AC /* YSNChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSNChatViewController.m; sourceTree = "<group>"; };
+		10D6735D6329A2700F7453F2 /* libPods-YSNSangoChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSNSangoChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0B99B20D9A9E317DAB3AFD /* Pods-YSNSangoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSNSangoChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSNSangoChat/Pods-YSNSangoChat.release.xcconfig"; sourceTree = "<group>"; };
+		585611142C54A67339B85AF6 /* Pods-YSNSangoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSNSangoChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSNSangoChat/Pods-YSNSangoChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F224061C1D51D88E43D882AD /* libPods-YSNSangoChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				0F3E965A1BB391BE004F22AC /* YSNSangoChatTests */,
 				0F3E96651BB391BE004F22AC /* YSNSangoChatUITests */,
 				0F3E963F1BB391BE004F22AC /* Products */,
+				9023C484E309E4321B4ACBDA /* Pods */,
+				ADC3C8E07FB9066F9338E2B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +115,8 @@
 				0F3E96451BB391BE004F22AC /* AppDelegate.m */,
 				0F3E96471BB391BE004F22AC /* ViewController.h */,
 				0F3E96481BB391BE004F22AC /* ViewController.m */,
+				0F3E96741BB39406004F22AC /* YSNChatViewController.h */,
+				0F3E96751BB39406004F22AC /* YSNChatViewController.m */,
 				0F3E964A1BB391BE004F22AC /* Main.storyboard */,
 				0F3E964D1BB391BE004F22AC /* Assets.xcassets */,
 				0F3E964F1BB391BE004F22AC /* LaunchScreen.storyboard */,
@@ -140,6 +152,23 @@
 			path = YSNSangoChatUITests;
 			sourceTree = "<group>";
 		};
+		9023C484E309E4321B4ACBDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				585611142C54A67339B85AF6 /* Pods-YSNSangoChat.debug.xcconfig */,
+				2E0B99B20D9A9E317DAB3AFD /* Pods-YSNSangoChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADC3C8E07FB9066F9338E2B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10D6735D6329A2700F7453F2 /* libPods-YSNSangoChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F3E966B1BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChat" */;
 			buildPhases = (
+				B26F9092BAD1F0667BD8545E /* Check Pods Manifest.lock */,
 				0F3E963A1BB391BE004F22AC /* Sources */,
 				0F3E963B1BB391BE004F22AC /* Frameworks */,
 				0F3E963C1BB391BE004F22AC /* Resources */,
+				7CFFF2BB2BCE224008598126 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +296,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CFFF2BB2BCE224008598126 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSNSangoChat/Pods-YSNSangoChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26F9092BAD1F0667BD8545E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F3E963A1BB391BE004F22AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,6 +337,7 @@
 				0F3E96491BB391BE004F22AC /* ViewController.m in Sources */,
 				0F3E96461BB391BE004F22AC /* AppDelegate.m in Sources */,
 				0F3E96431BB391BE004F22AC /* main.m in Sources */,
+				0F3E96761BB39406004F22AC /* YSNChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +476,7 @@
 		};
 		0F3E966C1BB391BE004F22AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585611142C54A67339B85AF6 /* Pods-YSNSangoChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YSNSangoChat/Info.plist;
@@ -422,6 +488,7 @@
 		};
 		0F3E966D1BB391BE004F22AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0B99B20D9A9E317DAB3AFD /* Pods-YSNSangoChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YSNSangoChat/Info.plist;
@@ -498,6 +565,7 @@
 				0F3E966D1BB391BE004F22AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F3E966E1BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChatTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +574,7 @@
 				0F3E96701BB391BE004F22AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F3E96711BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +583,7 @@
 				0F3E96731BB391BE004F22AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
