@@ -99,6 +99,12 @@ static const unsigned short kPort = 1234;
              }];
 }
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.client disconnectWithCompletionHandler:nil];
+}
+
 #pragma mark UICollectionView protocol
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
