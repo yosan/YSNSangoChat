@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3E96431BB391BE004F22AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E96421BB391BE004F22AC /* main.m */; };
+		0F3E96461BB391BE004F22AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E96451BB391BE004F22AC /* AppDelegate.m */; };
+		0F3E96491BB391BE004F22AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E96481BB391BE004F22AC /* ViewController.m */; };
+		0F3E964C1BB391BE004F22AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3E964A1BB391BE004F22AC /* Main.storyboard */; };
+		0F3E964E1BB391BE004F22AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3E964D1BB391BE004F22AC /* Assets.xcassets */; };
+		0F3E96511BB391BE004F22AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3E964F1BB391BE004F22AC /* LaunchScreen.storyboard */; };
+		0F3E965C1BB391BE004F22AC /* YSNSangoChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E965B1BB391BE004F22AC /* YSNSangoChatTests.m */; };
+		0F3E96671BB391BE004F22AC /* YSNSangoChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E96661BB391BE004F22AC /* YSNSangoChatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F3E96581BB391BE004F22AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3E96361BB391BE004F22AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3E963D1BB391BE004F22AC;
+			remoteInfo = YSNSangoChat;
+		};
+		0F3E96631BB391BE004F22AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3E96361BB391BE004F22AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3E963D1BB391BE004F22AC;
+			remoteInfo = YSNSangoChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3E963E1BB391BE004F22AC /* YSNSangoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSNSangoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3E96421BB391BE004F22AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F3E96441BB391BE004F22AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F3E96451BB391BE004F22AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F3E96471BB391BE004F22AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F3E96481BB391BE004F22AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F3E964B1BB391BE004F22AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F3E964D1BB391BE004F22AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F3E96501BB391BE004F22AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F3E96521BB391BE004F22AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3E96571BB391BE004F22AC /* YSNSangoChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSNSangoChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3E965B1BB391BE004F22AC /* YSNSangoChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSNSangoChatTests.m; sourceTree = "<group>"; };
+		0F3E965D1BB391BE004F22AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3E96621BB391BE004F22AC /* YSNSangoChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSNSangoChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3E96661BB391BE004F22AC /* YSNSangoChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSNSangoChatUITests.m; sourceTree = "<group>"; };
+		0F3E96681BB391BE004F22AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3E963B1BB391BE004F22AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3E96541BB391BE004F22AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3E965F1BB391BE004F22AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3E96351BB391BE004F22AC = {
+			isa = PBXGroup;
+			children = (
+				0F3E96401BB391BE004F22AC /* YSNSangoChat */,
+				0F3E965A1BB391BE004F22AC /* YSNSangoChatTests */,
+				0F3E96651BB391BE004F22AC /* YSNSangoChatUITests */,
+				0F3E963F1BB391BE004F22AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F3E963F1BB391BE004F22AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3E963E1BB391BE004F22AC /* YSNSangoChat.app */,
+				0F3E96571BB391BE004F22AC /* YSNSangoChatTests.xctest */,
+				0F3E96621BB391BE004F22AC /* YSNSangoChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F3E96401BB391BE004F22AC /* YSNSangoChat */ = {
+			isa = PBXGroup;
+			children = (
+				0F3E96441BB391BE004F22AC /* AppDelegate.h */,
+				0F3E96451BB391BE004F22AC /* AppDelegate.m */,
+				0F3E96471BB391BE004F22AC /* ViewController.h */,
+				0F3E96481BB391BE004F22AC /* ViewController.m */,
+				0F3E964A1BB391BE004F22AC /* Main.storyboard */,
+				0F3E964D1BB391BE004F22AC /* Assets.xcassets */,
+				0F3E964F1BB391BE004F22AC /* LaunchScreen.storyboard */,
+				0F3E96521BB391BE004F22AC /* Info.plist */,
+				0F3E96411BB391BE004F22AC /* Supporting Files */,
+			);
+			path = YSNSangoChat;
+			sourceTree = "<group>";
+		};
+		0F3E96411BB391BE004F22AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F3E96421BB391BE004F22AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F3E965A1BB391BE004F22AC /* YSNSangoChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3E965B1BB391BE004F22AC /* YSNSangoChatTests.m */,
+				0F3E965D1BB391BE004F22AC /* Info.plist */,
+			);
+			path = YSNSangoChatTests;
+			sourceTree = "<group>";
+		};
+		0F3E96651BB391BE004F22AC /* YSNSangoChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3E96661BB391BE004F22AC /* YSNSangoChatUITests.m */,
+				0F3E96681BB391BE004F22AC /* Info.plist */,
+			);
+			path = YSNSangoChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F3E963D1BB391BE004F22AC /* YSNSangoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3E966B1BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChat" */;
+			buildPhases = (
+				0F3E963A1BB391BE004F22AC /* Sources */,
+				0F3E963B1BB391BE004F22AC /* Frameworks */,
+				0F3E963C1BB391BE004F22AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSNSangoChat;
+			productName = YSNSangoChat;
+			productReference = 0F3E963E1BB391BE004F22AC /* YSNSangoChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F3E96561BB391BE004F22AC /* YSNSangoChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3E966E1BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChatTests" */;
+			buildPhases = (
+				0F3E96531BB391BE004F22AC /* Sources */,
+				0F3E96541BB391BE004F22AC /* Frameworks */,
+				0F3E96551BB391BE004F22AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3E96591BB391BE004F22AC /* PBXTargetDependency */,
+			);
+			name = YSNSangoChatTests;
+			productName = YSNSangoChatTests;
+			productReference = 0F3E96571BB391BE004F22AC /* YSNSangoChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F3E96611BB391BE004F22AC /* YSNSangoChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3E96711BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChatUITests" */;
+			buildPhases = (
+				0F3E965E1BB391BE004F22AC /* Sources */,
+				0F3E965F1BB391BE004F22AC /* Frameworks */,
+				0F3E96601BB391BE004F22AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3E96641BB391BE004F22AC /* PBXTargetDependency */,
+			);
+			name = YSNSangoChatUITests;
+			productName = YSNSangoChatUITests;
+			productReference = 0F3E96621BB391BE004F22AC /* YSNSangoChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F3E96361BB391BE004F22AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "高橋 庸介";
+				TargetAttributes = {
+					0F3E963D1BB391BE004F22AC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0F3E96561BB391BE004F22AC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0F3E963D1BB391BE004F22AC;
+					};
+					0F3E96611BB391BE004F22AC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0F3E963D1BB391BE004F22AC;
+					};
+				};
+			};
+			buildConfigurationList = 0F3E96391BB391BE004F22AC /* Build configuration list for PBXProject "YSNSangoChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F3E96351BB391BE004F22AC;
+			productRefGroup = 0F3E963F1BB391BE004F22AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3E963D1BB391BE004F22AC /* YSNSangoChat */,
+				0F3E96561BB391BE004F22AC /* YSNSangoChatTests */,
+				0F3E96611BB391BE004F22AC /* YSNSangoChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F3E963C1BB391BE004F22AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3E96511BB391BE004F22AC /* LaunchScreen.storyboard in Resources */,
+				0F3E964E1BB391BE004F22AC /* Assets.xcassets in Resources */,
+				0F3E964C1BB391BE004F22AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3E96551BB391BE004F22AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3E96601BB391BE004F22AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F3E963A1BB391BE004F22AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3E96491BB391BE004F22AC /* ViewController.m in Sources */,
+				0F3E96461BB391BE004F22AC /* AppDelegate.m in Sources */,
+				0F3E96431BB391BE004F22AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3E96531BB391BE004F22AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3E965C1BB391BE004F22AC /* YSNSangoChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3E965E1BB391BE004F22AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3E96671BB391BE004F22AC /* YSNSangoChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F3E96591BB391BE004F22AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3E963D1BB391BE004F22AC /* YSNSangoChat */;
+			targetProxy = 0F3E96581BB391BE004F22AC /* PBXContainerItemProxy */;
+		};
+		0F3E96641BB391BE004F22AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3E963D1BB391BE004F22AC /* YSNSangoChat */;
+			targetProxy = 0F3E96631BB391BE004F22AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F3E964A1BB391BE004F22AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3E964B1BB391BE004F22AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F3E964F1BB391BE004F22AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3E96501BB391BE004F22AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F3E96691BB391BE004F22AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F3E966A1BB391BE004F22AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F3E966C1BB391BE004F22AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSNSangoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yosan.ios.YSNSangoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F3E966D1BB391BE004F22AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSNSangoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yosan.ios.YSNSangoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F3E966F1BB391BE004F22AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSNSangoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yosan.ios.YSNSangoChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSNSangoChat.app/YSNSangoChat";
+			};
+			name = Debug;
+		};
+		0F3E96701BB391BE004F22AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSNSangoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yosan.ios.YSNSangoChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSNSangoChat.app/YSNSangoChat";
+			};
+			name = Release;
+		};
+		0F3E96721BB391BE004F22AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YSNSangoChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yosan.ios.YSNSangoChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YSNSangoChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0F3E96731BB391BE004F22AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YSNSangoChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yosan.ios.YSNSangoChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YSNSangoChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3E96391BB391BE004F22AC /* Build configuration list for PBXProject "YSNSangoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3E96691BB391BE004F22AC /* Debug */,
+				0F3E966A1BB391BE004F22AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3E966B1BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3E966C1BB391BE004F22AC /* Debug */,
+				0F3E966D1BB391BE004F22AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F3E966E1BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3E966F1BB391BE004F22AC /* Debug */,
+				0F3E96701BB391BE004F22AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F3E96711BB391BE004F22AC /* Build configuration list for PBXNativeTarget "YSNSangoChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3E96721BB391BE004F22AC /* Debug */,
+				0F3E96731BB391BE004F22AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F3E96361BB391BE004F22AC /* Project object */;
+}
